@@ -1,0 +1,11 @@
+{
+  "name": "primernode",
+  "version": "1.0.0",
+  "description": "primera creacion de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
