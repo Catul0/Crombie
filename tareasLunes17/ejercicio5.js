@@ -11,18 +11,13 @@ function solution(correo, contra, info) {
     for(let i=0; i<correo.length;i++){
 
         if(correo[i]=="@"){
-
             validadorArroba=true;
-
             console.log("SE VALIDA ARROBA");
 
         }
         if(correo[i]=='.' && correo[i+1]=='c' && correo[i+2]=='o' && correo[i+3]=='m' ){
-
             console.log("SE VALIDA .COM");
-
             validadorCom=true;
-
         }
 
     }
