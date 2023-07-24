@@ -1,5 +1,14 @@
-console.log("hola")
-type Auto = Record<string,number|string>;
+type tipoDeHamburguesa = "Carne" | "pollo"| "Vegetariana";
 
-const audi:  Auto={marca:"audi", potencia:"200hp" };
-console.log(audi)
+type Hamburguesa={
+    name:string,
+    precio:number,
+    tipo:tipoDeHamburguesa
+};
+const hamburguesa1:Hamburguesa={
+    name:"SuprimeBacon",
+    precio:2023,
+    tipo:"Carne"
+}
+
+console.log(hamburguesa1)
